@@ -86,4 +86,19 @@ footer {
     margin-top: 10px;
     margin-bottom: 10px;
    }
-  
+
+   .photo-placeholder_about {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Расстояние между фотографиями */
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+   .photo-placeholder_about img {
+    max-width: 600px; /* Максимальная ширина фотографии */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    border: 1px solid #77d3fa; /* Рамка вокруг фотографии */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Небольшая тень */
+    border-radius: 10px; /* Скругленные углы */
+    box-sizing: border-box; /* Чтобы border и padding не увеличивали ширину элемента */
+   }
