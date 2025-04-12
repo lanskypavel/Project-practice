@@ -95,7 +95,7 @@ footer {
     margin-bottom: 10px;
    }
    .photo-placeholder_about img {
-    max-width: 600px; /* Максимальная ширина фотографии */
+    max-width: 620px; /* Максимальная ширина фотографии */
     height: auto; /* Автоматическая высота для сохранения пропорций */
     border: 1px solid #77d3fa; /* Рамка вокруг фотографии */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Небольшая тень */
