@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #0d5293;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #0d5293;
+    padding: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    padding: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ffffff;
+    color: #0d5293;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #0d5293;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.photo-placeholder {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Расстояние между фотографиями */
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+  
+   .photo-placeholder img {
+    width: calc(33.33% - 10px); /* Три фото в ряд, с учетом отступов */
+    max-width: 500px; /* Максимальная ширина фотографии */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    border: 1px solid #77d3fa; /* Рамка вокруг фотографии */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Небольшая тень */
+    border-radius: 5px; /* Скругленные углы */
+    box-sizing: border-box; /* Чтобы border и padding не увеличивали ширину элемента */
+   }
+  
+   /* Если нужно, чтобы фотографии занимали всю ширину контейнера, когда их несколько */
+   .photo-placeholder:has(img:only-child) img {
+    width: 100%; /* Одна фотография занимает всю ширину */
+    max-width: 350px; /* Можно увеличить максимальную ширину для одной фотографии */
+   }
+
+   .post-container {
+    background-color: #b7e3f7; /* Светло-серый фон для контейнера */
+    margin-bottom: 20px; /* Отступ между постами */
+    padding: 20px; /* Внутренний отступ для контента */
+    border-radius: 8px; /* Скругленные углы */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Небольшая тень */
+   }
+  
+   .photo-placeholder {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Расстояние между фотографиями */
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+
+   .photo-placeholder_about {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Расстояние между фотографиями */
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+   .photo-placeholder_about img {
+    max-width: 650px; /* Максимальная ширина фотографии */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    border: 6px solid #000000; /* Рамка вокруг фотографии */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Небольшая тень */
+    border-radius: 10px; /* Скругленные углы */
+    box-sizing: border-box; /* Чтобы border и padding не увеличивали ширину элемента */
+   }
