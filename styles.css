@@ -102,3 +102,12 @@ footer {
     border-radius: 10px; /* Скругленные углы */
     box-sizing: border-box; /* Чтобы border и padding не увеличивали ширину элемента */
    }
+
+   .photo-placeholder_partners img{
+    max-width: 350px; /* Максимальная ширина фотографии */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    border: 6px solid #000000; /* Рамка вокруг фотографии */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Небольшая тень */
+    border-radius: 10px; /* Скругленные углы */
+    box-sizing: border-box; /* Чтобы border и padding не увеличивали ширину элемента */
+   } 
